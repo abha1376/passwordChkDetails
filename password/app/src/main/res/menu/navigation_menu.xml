@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="profile"
+    android:icon="@drawable/sh"
+    android:id="@+id/profile"
+    app:showAsAction="ifRoom">
+    <menu>
+        <item
+            android:title="user1"
+            android:icon="@drawable/ic_launcher_background"
+            android:id="@+id/u1"
+            app:showAsAction="ifRoom">
+
+        </item>
+        <item
+            android:title="user2"
+            android:icon="@drawable/ic_launcher_background"
+            android:id="@+id/u2"
+            app:showAsAction="ifRoom">
+
+        </item>
+        <item
+            android:title="user3"
+            android:icon="@drawable/ic_launcher_background"
+            android:id="@+id/u3"
+            app:showAsAction="ifRoom">
+
+        </item>
+        <item
+            android:title="user4"
+            android:icon="@drawable/ic_launcher_background"
+            android:id="@+id/u4"
+            app:showAsAction="ifRoom">
+
+        </item>
+    </menu>
+    </item>
+
+    <item
+        android:title="Settings"
+        android:id="@+id/Settings"
+        android:icon="@drawable/navi"
+        app:showAsAction="ifRoom"
+        ><menu>
+        <item
+            android:title="auser1"
+            android:icon="@drawable/ic_launcher_background"
+            android:id="@+id/au1"
+            app:showAsAction="ifRoom">
+
+        </item>
+        <item
+            android:title="auser2"
+            android:icon="@drawable/ic_launcher_background"
+            android:id="@+id/au2"
+            app:showAsAction="ifRoom">
+
+        </item>
+        <item
+            android:title="auser3"
+            android:icon="@drawable/ic_launcher_background"
+            android:id="@+id/au3"
+            app:showAsAction="ifRoom">
+
+        </item>
+        <item
+            android:title="auser4"
+            android:icon="@drawable/ic_launcher_background"
+            android:id="@+id/au4"
+            app:showAsAction="ifRoom">
+
+        </item>
+    </menu>
+    </item>
+
+
+</menu>
